@@ -13,4 +13,4 @@ const sortedBands = bands.slice().sort((a, b) => {
 });
 
 const ul = document.getElementById('bands');
-ul.innerHTML = sortedBands.map(band => <li>${band}</li>).join('');
+ul.innerHTML = sortedBands.map(band => `<li>${band}</li>`).join('');
